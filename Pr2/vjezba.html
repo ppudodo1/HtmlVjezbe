@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+
+  <table border="1">
+    <caption>Spajanja u tablici 1</caption>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td colspan="3" rowspan="3">6,7,8,10,11,12,14,15</td>
+        </tr>
+        <tr>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>13</td>
+        </tr>
+  </table>
+  <table border="1">
+    <caption>Spajanja u tablici 1</caption>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td colspan="5">1</td>
+            <td colspan="4">6</td>
+        </tr>
+        <tr>
+            <td colspan="4">1</td>
+            <td colspan="5">5</td>
+        </tr>
+        
+  </table type="fixed">
+  <table border="1">
+    <tr>
+        <td width="100px" rowspan="3" height="50px">1</td>
+        <td width="100px" rowspan="2">2</td>
+    </tr>
+    <tr>
+       
+        
+    </tr>
+    <tr>
+        <td width="100px" rowspan="2">5</td>
+        
+    </tr>
+    <tr>
+        <td width="100px" rowspan="3">7</td>
+       
+    </tr>
+    <tr>
+        <td width="100px" rowspan="2">9</td>
+      
+    </tr>
+    <tr>
+      
+        
+    </tr>
+  </table>
+
+  <form>
+    <table border="0" cellpadding = "3" width ="350">
+        <caption>Podaci o meni</caption>
+        <tr>
+            <td width="100">Ime</td>
+            <td>
+                <input type="text" name="100" size="34" maxlength="10">
+            </td>
+
+        </tr>
+        <tr>
+            <td width="70">Prezime</td>
+            <td>
+                <input width="200" type="text" name="100" size="34" maxlength="15">
+            </td>
+        </tr>
+        <tr>
+            <td>Spol:</td>
+            <td><input type="radio" name="spol" value="1">muško
+            <input type="radio" name="spol" value="2">žensko</td>
+        </tr>
+        <tr>
+            <td>Strani jezici</td>
+            <td>
+                <input type="checkbox" value="opcija1" >Engleski <br>
+                <input type="checkbox" value="opcija2">Njemački <br>
+                <input type="checkbox" value="opcija3"> Talijanski <br>
+                <input type="checkbox" value="opcija4">Francuski <br>
+            </td>
+        </tr>
+        <tr>
+            <td>Bračno stanje</td>
+            <td>
+                <select>
+                    <option value="1">Neoženjen/neudana</option>
+                    <option value="2" selected>Oženjen/udana</option>
+                    <option value="3">Rastavljen(a)</option>
+                    <option value="4">Udovac/Udovica</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>O meni</td>
+            <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td>Privatnost:</td>
+            <td> <input type="text" value="Prihvaćam uvjete" readonly></td>
+        </tr>
+
+
+    </table>
+
+
+  </form>
+
+
+  <table border="1">
+    <caption>Neka tablica</caption>
+        <tr>
+            <th colspan="3">Popis cijena i popularnost prebirnika</th>
+         
+        </tr>
+        <tr>
+            <td valign="bottom" halign ="right" height ="200" width="200">Mozilla Firefox</td>
+            <td rowspan="4">besplatan</td>
+            <td>Dosegao vrhunac</td>
+        </tr>
+        <tr>
+            <td>Internet Explorer</td>
+            <td>U padu</td>
+        </tr>
+        <tr>
+            <td>Opera</td>
+            <td>Stabilna</td>
+        </tr>
+        <tr>
+            <td>Chrome</td>
+            <td>Širi tržište</td>
+        </tr>
+
+
+  </table>
+
+
+</body>
+</html>
