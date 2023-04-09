@@ -1,0 +1,71 @@
+body{
+    font-family: Times ,Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.page-wrapper{
+    margin-left: 300px;
+    margin-right: 300px;
+    background: linear-gradient(to bottom right,#ffffff, #000000),url("./slike/restaurant.png");
+}
+.main{
+    width: 100%;
+    overflow: hidden;
+}
+.explanation{
+    
+    width: 50%;
+    float: left;
+    box-sizing: border-box; 
+    padding: 20px;
+   
+}
+.participation{
+    width: 50%;
+    float: left;
+    box-sizing: border-box; 
+    padding: 20px;
+ 
+}
+.benefits{
+    width: 50%;
+    float: left;
+    box-sizing: border-box; 
+    padding: 20px;
+}
+.requirements{
+    width: 50%;
+    float: left;
+    box-sizing: border-box; 
+    padding: 20px;
+
+}
+.participation a:hover{
+    color: black;
+}
+.participation a:visited{
+    color: white;
+}
+.participation a:active{
+    color: rgb(184, 133, 255);
+}
+a{
+    color: yellow;
+    letter-spacing: 5px;
+}
+a:hover{
+    color: red;
+    
+}
+a:visited{
+    color: purple;
+}
+a:active{
+    color: green;
+}
+.tab{
+    background-color: white;
+    color: green;
+}
+label{
+   font-style: italic; 
+}
