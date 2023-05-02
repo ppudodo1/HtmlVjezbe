@@ -1,0 +1,42 @@
+img{
+    max-width: 100%;
+}
+header{
+    background-color: black;
+    color: white;
+}
+.top{
+    text-align: center;
+    background-color: lightsteelblue;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.top h3{
+    margin-top: 40px;
+}
+.top p{
+    font-size: 12px;
+    width: 70%;
+    margin: 0 auto;
+}
+.center{
+    margin-top: 80px;
+    text-align: center;
+}
+.bottom{
+    background-color: lightsteelblue;
+    height: 300px;
+    
+}
+.bottom img{
+    margin-top:80px
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.container{
+    max-width: 800px;
+}
